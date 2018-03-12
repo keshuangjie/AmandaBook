@@ -1,25 +1,14 @@
-This is a Title
+安全补丁检测
 ===============
-That has a paragraph about a main subject and is set when the '='
-is at least the same length of the title itself.
 
-Subject Subtitle
-----------------
-Subtitles are set with '-' and are required to have the same length
-of the subtitle itself, just like titles.
+##1.场景说明
 
-Lists can be unnumbered like:
+各种应用的漏洞已经成为大规模网络与信息安全事件和重大信息泄露事件的主要原因之一，针对计算机漏洞带来的危害，安装相应的补丁是最有效、也是最经济的防范措施。但打补丁是比较被动的方式，对于企业来说，收集、测试、备份、分发等相关的打补丁流程仍然是一个颇为繁琐的过程，甚至补丁本身就有可能成为新的漏洞。
 
- * Item Foo
- * Item Bar
+基于以上问题，安全补丁模块主要是为了解决补丁管理的混乱，而建立一个的一个自动化补丁管理库，拟实现帮助运维人员检测需要打的补丁、自动化打补丁、进行补丁管理。
 
-Or automatically numbered:
+## 2.名词解释
 
- #. Item 1
- #. Item 2
+**【安全补丁】**
 
-Inline Markup
--------------
-Words can have *emphasis in italics* or be **bold** and you can define
-code samples with back quotes, like when you talk about a command: ``sudo``
-gives you super user powers!
+指对于软件系统（如微软操作系统）在使用过程中暴露的问题（一般由黑客或病毒设计者发现）而发布的解决问题的小程序。安全补丁是由软件的原来作者制作的，可以访问网站下载补丁。
